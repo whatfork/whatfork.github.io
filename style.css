@@ -461,6 +461,10 @@ input.btn-primary {
 	background-color: #000000 !important;
 }
 
+.row{
+	flex-wrap: wrap !important;
+}
+
 #newsletter h2,p{
 	color:#ffffff !important;
 }
