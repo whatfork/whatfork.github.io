@@ -542,7 +542,7 @@ input.btn-primary {
 @media(max-width: 555px){
 .viewMore{
 	font-size:14px;
-	text-align: right;
+	text-align: center;
 	text-decoration: underline;
 }
 h3.item-title{
