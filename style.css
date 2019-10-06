@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap");
 
+h1{
+	font-size: 1.4em;
+	font-family: "Playfair Display", serif !important;
+}
 
 h3{
 	font-family: "Playfair Display", serif !important;
@@ -37,7 +41,7 @@ li{
 }
 
 .viewMore{
-	font-size:0.57em;
+	font-size:14px;
 	text-align: right;
 	text-decoration: underline;
 }
@@ -288,10 +292,6 @@ body {
   background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/istio-203x300.png);
 }
 
-.grid-item-content {
-  padding: 0 1em 1em 1em;
-}
-
 .item-title {
 	font-family: "Playfair Display", serif;
   font-size: 0.85em;
@@ -302,7 +302,6 @@ body {
 
 .item-category {
 	font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
   display: block;
   margin-bottom: 20px;
   font-size: 0.57em;
@@ -335,6 +334,26 @@ body {
 .grid-item:hover .grid-item-wrapper {
   padding: 2% 2%;
   margin: -2% -2%;
+}
+
+.grid-item-content {
+  padding: 0 1em 1em 0.3em;
+	margin-top: -1em;
+}
+
+h3.item-title{
+	font-family: "Playfair Display", serif !important;
+  font-size: 18px !important;
+  line-height: 26px !important;
+  margin-bottom: 0.4em;
+  display: block;
+}
+
+p.item-category{
+	font-family: "Raleway", sans-serif !important;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px !important;
 }
 
 /* Zomato widget styles */
@@ -465,7 +484,7 @@ input.btn-primary {
 	display:inline !important;
 }
 
-#newsletter h2,p{
+#footer {
 	color:#ffffff !important;
 }
 
@@ -518,4 +537,47 @@ input.btn-primary {
 		display:inline-block !important;
 		margin:0 16.5% !important;
 	}
+}
+
+@media(max-width: 555px){
+.viewMore{
+	font-size:14px;
+	text-align: right;
+	text-decoration: underline;
+}
+h3.item-title{
+	font-family: "Playfair Display", serif !important;
+  font-size: 18px !important;
+  line-height: 26px !important;
+  margin-bottom: 0.4em;
+  display: block;
+}
+
+p.item-category{
+	font-family: "Raleway", sans-serif !important;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px !important;
+}
+}
+
+
+/* ********************************************
+
+Styles for Recipes
+
+*********************************************** */
+
+.pageContainer{
+	padding: 0 12.203%;
+}
+
+.videoframe{
+	display: flex;
+	padding-bottom: 3em;
+	width: 100%;
+}
+
+#RecipesTitleDescription p{
+	color: #000000 !important;
 }
