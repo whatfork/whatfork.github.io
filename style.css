@@ -519,11 +519,17 @@ input.btn-primary {
 }
 */
 
+/*
 @media(max-width: 800px) {
-  #myCarousel h3,p {
+  #carTitle {
+    display: none !important;
+  }
+	#carSub {
     display: none !important;
   }
 }
+*/
+
 
 @media(max-width: 800px) {
   .newsletter{
@@ -545,6 +551,13 @@ input.btn-primary {
 	text-align: center;
 	text-decoration: underline;
 }
+
+@media(max-width: 555px){
+img.headerCarouselImg{
+	height:auto;
+	max-width: none !important;
+}
+
 h3.item-title{
 	font-family: "Playfair Display", serif !important;
   font-size: 18px !important;
@@ -558,6 +571,43 @@ p.item-category{
   display: block;
   margin-bottom: 20px;
   font-size: 14px !important;
+}
+
+#footer ul.social li:hover a i {
+	font-size:30px;
+}
+
+.carousel-caption{
+	padding-bottom: 130px !important;
+}
+
+.top-carousel-title{
+	color: white !important;
+}
+
+.top-carousel-subtitle{
+	color: white !important;
+}
+
+/* Zomato widget styles */
+.widget_wrap{
+	width:84% !important;
+	height:420px !important;
+	display:inline-block !important;
+	margin:0 8% !important;
+	padding-bottom: 2em;
+}
+
+/* snap widget styles */
+.snapWidget{
+	width:84% !important;
+	height:auto !important;
+	display:inline-block !important;
+	margin:0 8% !important;
+}
+
+.grid-row{
+	justify-content: center !important;
 }
 }
 
