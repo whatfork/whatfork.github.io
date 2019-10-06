@@ -654,3 +654,16 @@ div.recipesTitleDescription{
     height: 100%;
     border: 0;
 }
+
+.ingredients{
+	max-width: 70%;
+	text-align: left;
+	color: black !important;
+	padding: 4% 0 0 4%;
+}
+
+.ingredientlist{
+	font-weight:300 !important;
+	text-align: left;
+	padding: 4% 0 0 4%;
+}
