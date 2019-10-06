@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap");
 
 h1{
-	font-size: 1.4em;
+	font-size: 2.2em !important;
 	font-family: "Playfair Display", serif !important;
 }
 
@@ -611,13 +611,13 @@ p.item-category{
 }
 }
 
-
 /* ********************************************
 
 Styles for Recipes
 
 *********************************************** */
 
+/*
 .pageContainer{
 	padding: 0 12.203%;
 }
@@ -626,8 +626,15 @@ Styles for Recipes
 	display: flex;
 	padding-bottom: 3em;
 	width: 100%;
+} */
+
+h1.RecipesTitle{
+	font-size: 2.2em !important;
 }
 
-#RecipesTitleDescription p{
+#recipesTitleDescription p{
 	color: #000000 !important;
 }
+div.recipesTitleDescription{
+	 padding: 4% 10% 0 4%
+ }
