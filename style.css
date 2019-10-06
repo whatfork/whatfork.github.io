@@ -554,7 +554,7 @@ input.btn-primary {
 
 @media(max-width: 555px){
 img.headerCarouselImg{
-	max-height:580px;
+	height: 75vh !important;
 	max-width: none !important;
 }
 
