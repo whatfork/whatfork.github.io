@@ -18,6 +18,7 @@ h5{
 }
 
 p{
+	font-size:16px;
 	font-family: "Raleway", sans-serif !important;
 }
 
@@ -28,6 +29,8 @@ p.top-carousel-subtitle{
 li{
 	background-color: none !important;
 }
+
+
 
 .curatedRecipesTitle{
 	text-align: center;
@@ -78,9 +81,27 @@ ol.carousel-indicators{
 	color: black !important;
 }
 
+
+.headerContent{
+	text-align: center;
+}
+
+.headerContent div{
+	display: inline-block;
+}
+
+.headerMenu{
+	float: left;
+	padding:1.3em;
+
+}
+
 .headerLogo{
 	padding:1.3em;
 }
+
+
+
 
 img.headerCarouselImg {
 	max-width: 100%;
@@ -88,7 +109,7 @@ img.headerCarouselImg {
 }
 
 img.logoImg{
-	display: block;
+	display: block !important;
 	margin: auto;
 }
 
