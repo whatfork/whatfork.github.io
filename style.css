@@ -632,6 +632,10 @@ p.item-category{
 .grid-row{
 	justify-content: center !important;
 }
+
+.headerMenu{
+	display: none !important;
+}
 }
 
 /* ********************************************
