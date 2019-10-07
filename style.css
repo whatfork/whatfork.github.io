@@ -30,7 +30,9 @@ li{
 	background-color: none !important;
 }
 
-
+.header{
+	padding: 0 15% !important;
+}
 
 .curatedRecipesTitle{
 	text-align: center;
