@@ -639,6 +639,10 @@ p.item-category{
 .headerMenu{
 	display: none !important;
 }
+
+.headerAbout{
+	display:none;
+}
 }
 
 /* ********************************************
