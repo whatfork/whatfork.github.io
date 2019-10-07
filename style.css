@@ -641,7 +641,7 @@ p.item-category{
 }
 
 .headerAbout{
-	display:none;
+	display:none !important;
 }
 }
 
