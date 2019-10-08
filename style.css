@@ -144,7 +144,7 @@ body {
 }
 
 .grid-item {
-  height: 284px;
+  height: 340px;
   -ms-flex: auto;
   width: 284px;
   position: relative;
@@ -186,7 +186,6 @@ body {
 }
 
 .grid-image-top {
-  height: 75%;
   width: 120%;
   background-size: cover;
   position: relative;
